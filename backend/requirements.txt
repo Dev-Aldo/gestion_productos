@@ -1,0 +1,26 @@
+# ============================================================================
+# Dependencias del proyecto gestion de productos - Backend
+# ============================================================================
+# Instalar con: pip install -r requirements.txt
+
+# Framework web
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+
+# Base de datos
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10  # Driver PostgreSQL
+
+# Validación de datos
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Variables de entorno
+python-dotenv==1.0.0
+
+# CORS y seguridad
+python-multipart==0.0.6
+
+# Opcional: Para migraciones de base de datos en producción
+# alembic==1.13.1
+
